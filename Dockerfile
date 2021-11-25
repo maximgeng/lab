@@ -1,8 +1,38 @@
-FROM tomcat
-RUN apt update
-RUN apt install maven -y
-WORKDIR /usr/local/tomcat
-RUN git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello
-WORKDIR boxfuse-sample-java-war-hello
-RUN mvn package
-RUN cp target/hello-1.0.war /usr/local/tomcat/webapps/
+Dream
+  Department 1
+    Names of workers:
+    Number for Olya: 4
+    Number for Dmitry: 3
+    Number for Ivan: 2
+
+  Department 2
+    Names of workers:
+    Number for Roman: 4
+    Number for Dmitry: 3
+    Number for Ivan: 2
+
+  Department 3
+    Names of workers:
+    Number for Roman: 4
+    Number for Dmitry: 3
+    Number for Ivan: 2
+
+  Department 4
+    Names of workers:
+    Number for Roman: 4
+    Number for Dmitry: 3
+    Number for Ivan: 2
+
+  Department 5
+    Names of workers:
+    Number for Roman: 4
+    Number for Dmitry: 3
+    Number for Ivan: 2
+
+  Department 6
+    Names of workers:
+    Number for Roman: 4
+    Number for Dmitry: 3
+    Number for Ivan: 2
+
+
